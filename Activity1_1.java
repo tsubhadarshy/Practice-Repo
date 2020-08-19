@@ -6,8 +6,8 @@ public class Activity1_1 {
 	    // Object initialization
 	    Car toyota = new Car();
 		// Add default values
-	    toyota.make = 2015;
-	    toyota.color = "White";
+	    toyota.make = 2020;
+	    toyota.color = "Black";
 	    toyota.transmission = "Manual";
 	
 		//Using Car class method
