@@ -1,5 +1,7 @@
 package session1;
 
+// comment note added in Car class by Vijay Moyalan
+
 public class Car {
     //Class Member Variables
     String color;
