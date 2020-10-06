@@ -9,16 +9,18 @@ public class Car {
     String transmission;
     int tyres;
     int doors;
-	
+    String modelNumber;
+
     //Constructor
     Car(int tyres, int doors) {
+        this.modelNumber = "Rw2123";
     	this.tyres = tyres;
     	this.doors = doors;
     }
 
     Car() {
     	this.tyres = 4;
-    	this.doors = 4;
+    	this.doors = 2;
     }
 
     //Class Methods
