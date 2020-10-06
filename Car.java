@@ -12,8 +12,8 @@ public class Car {
     String modelNumber;
 
     //Constructor
-    Car(int tyres, int doors) {
-        this.modelNumber = "Rw2123";
+    Car(int tyres, int doors, String modelNumber) {
+        this.modelNumber = modelNumber;
     	this.tyres = tyres;
     	this.doors = doors;
     }
