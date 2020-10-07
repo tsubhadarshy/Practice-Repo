@@ -20,7 +20,7 @@ public class Car {
 
     Car() {
     	this.tyres = 4;
-    	this.doors = 2;
+    	this.doors = 5;
     }
 
     //Class Methods
