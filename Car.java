@@ -10,6 +10,7 @@ public class Car {
     int tyres;
     int doors;
     String modelNumber;
+    String model;
 
     //Constructor
     Car(int tyres, int doors, String modelNumber) {
@@ -30,6 +31,7 @@ public class Car {
     	System.out.println("Transmission of the Car: " + transmission);
     	System.out.println("Number of doors on the car: " + doors);
     	System.out.println("Number of tyres on the car: " + tyres);
+	System.out.println("Car model name: " + model);
     }
 
     public void accelerate() {
