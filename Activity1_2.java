@@ -37,5 +37,3 @@ public class Activity1_2 {
         return temp_sum == fixedSum;
     }
 }
-
-//added a comment for testing
