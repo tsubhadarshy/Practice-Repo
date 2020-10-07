@@ -28,7 +28,7 @@ public class Activity1_2 {
             }
 
             //Sum should not be more than 30
-            if (temp_sum > 30) {
+            if (temp_sum >= 30) {
                 break;
             }
         }
@@ -37,3 +37,5 @@ public class Activity1_2 {
         return temp_sum == fixedSum;
     }
 }
+
+//added a comment for testing
