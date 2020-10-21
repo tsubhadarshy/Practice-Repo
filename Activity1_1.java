@@ -7,7 +7,7 @@ public class Activity1_1 {
 	    Car toyota = new Car();
 		// Add default values
 	    toyota.make = 2015;
-	    toyota.color = "White";
+	    toyota.color = "Black";
 	    toyota.transmission = "Manual";
 	    toyota.modelNumber = "qpri134";
 	    toyota.model = "Honda";
