@@ -5,13 +5,13 @@ import java.util.Arrays;
 public class Activity1_2 {
     public static void main(String[] args) {
         //Initialize the array
-        int[] numArr = {10, 77, 10, 54, -11, 10, 15, 10};
+        int[] numArr = {10, 77, 10, 54, -11, 10, 15, 50};
         System.out.println("Original Array: " + Arrays.toString(numArr));
         System.out.println("Size of the Array: " + numArr.length);
         
         //Set constants
         int searchNum = 10;
-        int fixedSum = 30;
+        int fixedSum = 50;
 
         //Print result
         System.out.println("Result: " + result(numArr, searchNum, fixedSum));
