@@ -1,7 +1,7 @@
 package session1;
 
 import java.util.Arrays;
-
+//changes by Priyanka
 public class Activity1_2 {
     public static void main(String[] args) {
         //Initialize the array
@@ -15,6 +15,7 @@ public class Activity1_2 {
 
         //Print result
         System.out.println("Result: " + result(numArr, searchNum, fixedSum));
+         System.out.println("Result: " + result(numArr, searchNum, fixedSum));
     }
 
     public static boolean result(int[] numbers, int searchNum, int fixedSum) {

@@ -10,9 +10,9 @@ public class Activity1_1 {
 	    toyota.color = "Black";
 	    toyota.transmission = "Manual";
 	    toyota.modelNumber = "qpri134";
-	    toyota.model = "SwiftC";
+	    toyota.model = "Honda";
 	
-		//Using Car class method
+//Forked sahil's repo		//Using Car class method
 		toyota.displayCharacterstics();
 		toyota.accelerate();
 		toyota.brake();
