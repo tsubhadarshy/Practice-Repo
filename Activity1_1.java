@@ -12,7 +12,7 @@ public class Activity1_1 {
 	    toyota.modelNumber = "qpri134";
 	    toyota.model = "Swift";
 	
-		//Using Car class method
+//Forked sahil's repo		//Using Car class method
 		toyota.displayCharacterstics();
 		toyota.accelerate();
 		toyota.brake();
