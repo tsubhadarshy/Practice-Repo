@@ -10,7 +10,7 @@ public class Activity1_1 {
 	    toyota.color = "White";
 	    toyota.transmission = "Manual";
 	    toyota.modelNumber = "qpri134";
-	    toyota.model = "Toyota";
+	    toyota.model = "SwiftC";
 	
 		//Using Car class method
 		toyota.displayCharacterstics();
