@@ -1,21 +1,20 @@
 package session1;
 
 import java.util.Arrays;
-//changes by Priyanka
+
 public class Activity1_2 {
     public static void main(String[] args) {
         //Initialize the array
-        int[] numArr = {10, 77, 10, 54, -11, 10, 15, 501};
+        int[] numArr = {10, 77, 10, 54, -11, 10};
         System.out.println("Original Array: " + Arrays.toString(numArr));
         System.out.println("Size of the Array: " + numArr.length);
         
         //Set constants
         int searchNum = 10;
-        int fixedSum = 501;
+        int fixedSum = 30;
 
         //Print result
         System.out.println("Result: " + result(numArr, searchNum, fixedSum));
-         System.out.println("Result: " + result(numArr, searchNum, fixedSum));
     }
 
     public static boolean result(int[] numbers, int searchNum, int fixedSum) {
@@ -29,7 +28,7 @@ public class Activity1_2 {
             }
 
             //Sum should not be more than 30
-            if (temp_sum >= 30) {
+            if (temp_sum > 30) {
                 break;
             }
         }
