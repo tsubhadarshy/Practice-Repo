@@ -1,2 +1,6 @@
-This is a more comprehensive test file.
+This is a more comprehensive test fil
+
 Now this will be cnflicted.
+=======
+This change will cause a conflict now.
+NOT a conlifct - resolved.
